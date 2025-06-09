@@ -129,10 +129,12 @@ plt.show()
 PGM4:
 # Machine Learning Program_04(Find-s Algorithm )
 
+Machine Learning Program_04(Find-s Algorithm )
+
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("Lab_4_Data_set.csv")
+data = pd.read_csv("Data.csv")
 print(data)
 
 d = np.array(data)[:,:-1]
@@ -152,7 +154,6 @@ def train(c,t):
                     pass
     return specific_hypothesis
 print("\n The Final hypothesis is: ",train(d,target))
-
 
 
 
